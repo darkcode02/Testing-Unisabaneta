@@ -18,7 +18,7 @@ Para ejecutar los scripts en este repositorio, necesitas:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/darkcode02/Testing-U.git
+   git clone https://github.com/darkcode02/Testing-Unisabaneta.git
    cd Testing-U
 
 2. **Instala los recursos** 
