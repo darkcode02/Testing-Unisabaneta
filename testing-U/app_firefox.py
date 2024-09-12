@@ -4,7 +4,7 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.firefox.options import Options
 
 # Configura el servicio y las opciones para Firefox
-service = FirefoxService(executable_path='/path/to/geckodriver')  # Reemplaza con la ruta a geckodriver
+service = FirefoxService(executable_path='/usr/local/bin/geckodriver')  # Cambia por la ruta donde está geckodriver  # Reemplaza con la ruta a geckodriver
 options = Options()
 
 # Inicia el WebDriver de Firefox

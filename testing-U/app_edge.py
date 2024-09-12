@@ -4,7 +4,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.edge.options import Options
 
 # Configura el servicio y las opciones para Edge
-service = EdgeService(executable_path='/path/to/msedgedriver')  # Reemplaza con la ruta a msedgedriver
+service = EdgeService(executable_path='/usr/local/bin/msedgedriver')  # Reemplaza con la ruta a msedgedriver
 options = Options()
 
 # Inicia el WebDriver de Edge
@@ -13,7 +13,7 @@ driver = webdriver.Edge(service=service, options=options)
 # Abre Google
 driver.get("https://www.google.com")
 
-# Verifica si "Google" está en el título
+# Verifica si "Google" está en el títulowebdriver edge 128.0.2739.79 
 assert "Google" in driver.title
 
 # Busca el campo de búsqueda por su nombre
